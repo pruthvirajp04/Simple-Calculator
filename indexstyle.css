@@ -4,6 +4,9 @@
 *{
     font-size: 23px;
 }
+body{
+    background-color: rgb(171, 156, 185);
+}
 .main-head {
     font-family: 'Libre Franklin', sans-serif;
     text-align: center;
