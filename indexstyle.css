@@ -1,11 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Orbitron&family=Oswald:wght@300&family=Quicksand:wght@300;600&family=Roboto+Mono:wght@300&family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Libre+Franklin&family=Orbitron&family=Oswald:wght@300&family=Quicksand:wght@300;600&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Orbitron&family=Oswald:wght@300&family=Quicksand:wght@300;600&family=Roboto+Mono:wght@300&family=Taviraj&display=swap');
 *{
     font-size: 23px;
 }
-.main-calculator{
-    /* display: flex; */
+.main-head {
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+}
+.main-head p{
+    font-size: 38px;
 
-    /* border: 2px solid red; */
-   
+}
+.main-calci{
+    display: flex;
+    justify-content: center;
+}
+.main-calculator{
+    border: 2px solid black;
+    background-color: rgb(82, 67, 67);
+    width: 450px;
+    border-radius: 12px;
+  
 }
 .button:hover{
     cursor: pointer;
@@ -13,7 +29,13 @@
     color: white;
 
 }
+.display-box{
+    color: wheat;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
 .button{
+    font-family: 'Orbitron', sans-serif;
     margin: 12px 12px;
 width: 83px;
 height: 40px;
@@ -25,4 +47,16 @@ border-radius: 12px;
     width: 300px;
     height: 40px;
     border-radius: 12px;
+}
+.credits{
+    font-family: 'Taviraj', serif;
+    margin-top: 40px;
+    text-align: center;
+}
+.credits a{
+    text-decoration: none;
+    color: rgb(3, 55, 68);
+}
+.credits a:hover{
+    text-decoration: underline;
 }
