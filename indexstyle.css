@@ -23,12 +23,7 @@
     border-radius: 12px;
   
 }
-.button:hover{
-    cursor: pointer;
-    background-color: black;
-    color: white;
 
-}
 .display-box{
     color: wheat;
     text-align: center;
@@ -59,4 +54,13 @@ border-radius: 12px;
 }
 .credits a:hover{
     text-decoration: underline;
+}
+@media (min-width : 1000px)
+{
+    .button:hover{
+        cursor: pointer;
+        background-color: black;
+        color: white;
+    
+    }
 }
